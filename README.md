@@ -15,8 +15,10 @@ git clone git@github.com:Solveiglu/TDT4140-Group75.git
 python3 -m venv agnitio
 
 # Activate the environment
-cd agnitio
-. bin/activate
+. venv/bin/activate
+
+# Install Python packages
+pip install -r requirements.txt
 
 # Perform database migrations
 python manage.py migrate
@@ -45,8 +47,9 @@ python manage.py runserver 8080
 open http://localhost:8080
 ```
 
-## Use of Git
+## Workflow
 ```
+
 # Push to new bransh
 
 git pull origin master
