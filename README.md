@@ -34,18 +34,6 @@ open http://localhost:8080
 ```
 
 
-## Setup for use
-```
-# Activate the environment
-cd agnitio
-. bin/activate
-
-# Start the server
-python manage.py runserver 8080
-
-# Check it out!
-open http://localhost:8080
-```
 
 ## Workflow
 ```
