@@ -12,7 +12,7 @@
 git clone git@github.com:Solveiglu/TDT4140-Group75.git
 
 # Create a virtual environment
-python3 -m venv agnitio
+python3 -m venv venv
 
 # Activate the environment
 . venv/bin/activate
