@@ -37,6 +37,7 @@ open http://localhost:8080
 
 ## Workflow
 ```
+# Start new branch, before issue is done
 
 # Push to new bransh
 
